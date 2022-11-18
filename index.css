@@ -1,5 +1,14 @@
 
-h1, h2, h3 
-{
-	box-shadow: 4px 4px 3px #000000;
+h1 {
+	height: 20%;
+	border-bottom: solid;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 2em;
+	height: auto;
+	display: inline;
 }
