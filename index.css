@@ -40,9 +40,14 @@ h1 {
 	flex-direction: row;
 }
 
+.gabgif{
+	width: 4em;
+	height: 1.5em;
+}
+
 .div-left{
 	margin-top: 0;
-	width: 30%;
+	width: 20%;
 	height: 1080px;
 	border-right: 2px solid;
 }
