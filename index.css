@@ -24,6 +24,7 @@ body{
 h1 {
 	font-family: 'Bluu Next';
 	font-size: 4em;
+	line-height: 0.01em;
 }
 
 .main-text {
