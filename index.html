@@ -9,7 +9,7 @@
         <script src="scripts/script.js" defer></script>
         <script src="scripts/ppds.date.js"></script>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.10" />
     </head>
     <body>
         <header class="top">
@@ -17,11 +17,7 @@
         </header>
         <div class="big-div">
             <div class="div-left">
-                <p class="beats"><script>
-                    var date = new Date;
-                    var beats = date.toInternetTime(2);
-                    document.write(beats)
-                    </script></p>
+                <p id="time"></p>
                 <main class="main">
                 <div class="clockbox">
                     <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">

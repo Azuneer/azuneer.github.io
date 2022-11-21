@@ -28,3 +28,11 @@ Date.prototype.getDayOfYear = function () {
   const BeginningOfYear = new Date(this.getFullYear(), 0, 1);
   return Math.ceil((this - BeginningOfYear) / DayInSeconds);
 };
+
+function startTime() {
+  var d = new Date(),
+      time = d.toInternetTime(2);
+      
+ document.getElementById('time').innerHTML = "<a href='https://en.wikipedia.org/wiki/Swatch_Internet_Time'>" + time + "</a>" ;
+}
+setInterval(startTime, 500)

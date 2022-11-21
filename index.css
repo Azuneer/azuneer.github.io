@@ -68,7 +68,9 @@ img {
 }
 
 
-.beats{
+#time a{
 	font-family: 'Bluu Next';
 	font-style: italic;
+	text-decoration: none;
+	color: inherit;
 }
