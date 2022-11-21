@@ -17,6 +17,11 @@
         </header>
         <div class="big-div">
             <div class="div-left">
+                <p class="beats"><script>
+                    var date = new Date;
+                    var beats = date.toInternetTime(2);
+                    document.write(beats)
+                    </script></p>
                 <main class="main">
                 <div class="clockbox">
                     <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
@@ -38,11 +43,6 @@
                             <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
                         </g>
                     </svg>
-                    <script>
-                    var date = new Date;
-                    var beats = date.toInternetTime(2);
-                    document.write(beats)
-                    </script>
                 </div>
                 </main>
             <!--<a href="https://gabriel.pagesperso-orange.fr"><img class="gabgif" src='gabrielpage.gif'></a>-->
