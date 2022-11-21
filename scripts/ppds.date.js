@@ -33,6 +33,6 @@ function startTime() {
   var d = new Date(),
       time = d.toInternetTime(2);
       
- document.getElementById('time').innerHTML = "<a href='https://en.wikipedia.org/wiki/Swatch_Internet_Time'>" + time + "</a>" ;
+ document.getElementById('time').innerHTML = "<a href='https://en.wikipedia.org/wiki/Swatch_Internet_Time' target='_blank'>" + time + "</a>" ;
 }
 setInterval(startTime, 500)
