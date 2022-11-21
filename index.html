@@ -6,7 +6,8 @@
         <link rel="icon" href="pictures/png_moodal_logo.png">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="style.css" type="text/css" media="all">
-        <script src="script.js" defer></script>
+        <script src="scripts/script.js" defer></script>
+        <script src="scripts/ppds.date.js"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
@@ -37,8 +38,13 @@
                             <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
                         </g>
                     </svg>
-                </div><!-- .clockbox -->
-            </main>
+                    <script>
+                    var date = new Date;
+                    var beats = date.toInternetTime(2);
+                    document.write(beats)
+                    </script>
+                </div>
+                </main>
             <!--<a href="https://gabriel.pagesperso-orange.fr"><img class="gabgif" src='gabrielpage.gif'></a>-->
             </div>
             <div class="div-right"><p class="main-text"> 
